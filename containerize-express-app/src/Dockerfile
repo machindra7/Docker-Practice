@@ -15,6 +15,7 @@ COPY src/index.js index.js
 EXPOSE 3000
 
 # Start the application
-CM [""node", "index.js"]
+CMD [""node", "index.js"]
+
 
 
