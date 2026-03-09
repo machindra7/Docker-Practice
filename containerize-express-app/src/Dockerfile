@@ -6,10 +6,10 @@ WORKDIR /app
 COPY package*.json .
 
 # install the dependencies
-RUN npm ci
+RUN npm install
 
 # Copy the source code of our app
-COPY src/index.js index.js
+COPY index.js index.js
 
 # Expose the application port
 EXPOSE 3000
