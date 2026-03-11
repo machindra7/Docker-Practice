@@ -1,0 +1,5 @@
+FROM apline:3.20
+
+ENTRYPOINT ["echo"]
+
+CMD ["DEFAULT MESSEGE"]
