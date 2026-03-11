@@ -1,4 +1,4 @@
-FROM apline:3.20
+FROM alpine:3.20
 
 ENTRYPOINT ["echo"]
 
