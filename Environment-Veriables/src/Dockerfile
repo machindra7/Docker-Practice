@@ -10,4 +10,6 @@ COPY . .
 
 ENV PORT=5000
 
+ENV APP_NAME="My_Application"
+
 CMD ["node", "index.js"]
