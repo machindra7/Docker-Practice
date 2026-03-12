@@ -6,7 +6,7 @@ COPY package*.json .
 
 RUN npm ci
 
-COPY src src
+COPY . .
 
 ENV PORT=3000
 
