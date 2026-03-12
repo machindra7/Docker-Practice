@@ -17,4 +17,4 @@ COPY --from=build /app/dist dist
 
 ENV PORT=3000
 
-CMD ["index.js"]
+CMD ["dist/index.js"]
