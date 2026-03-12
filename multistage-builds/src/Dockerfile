@@ -15,4 +15,4 @@ COPY . .
 
 ENV PORT=3000
 
-CMD ["index.js"]
+CMD ["dist/index.js"]
