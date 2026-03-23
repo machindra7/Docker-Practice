@@ -186,7 +186,7 @@ export default function App() {
         <section className="section-block">
           <div className="section-heading">
             <h2>Available Trains</h2>
-            <p>Search routes, compare fares, and choose your perfect ride.</p>
+            <p>Search routes,  and choose your perfect ride.</p>
           </div>
 
           <div className="train-grid">
